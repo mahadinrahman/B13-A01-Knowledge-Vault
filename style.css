@@ -36,7 +36,11 @@
     
     background-color:#30B868 ;
     font-weight: 600;
-    
+    cursor:pointer;
+
+}
+.btn:hover{
+    background-color: darkblue;
 
 }
 .btn1{
@@ -49,9 +53,15 @@
     background:none;
     border: 1px solid rgba(255, 255, 255, 1);
     margin-left: 20px;
+    cursor:pointer;
     
 
 }
+.btn1:hover{
+    background-color: darkblue;
+
+}
+
 .btn2{
     
     padding: 12px;
@@ -59,8 +69,13 @@
      background-color: rgba(255, 255, 255, 1);
     border:0px;
    color:#30B868;
+   cursor:pointer;
 
    
+
+}
+.btn2:hover{
+    background-color: darkblue;
 
 }
 .hero-section{
