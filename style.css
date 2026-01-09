@@ -4,6 +4,7 @@
     padding:16px 80px;
 
 }
+
 .h-flex{
     display: flex;
     justify-content: space-between;
@@ -28,7 +29,8 @@
 .btn{
     border-radius: 4px;
     padding: 12px;
-    background-color:;
+    color: rgba(255, 255, 255, 1);
+
     border:0px;
     font-size: 16px;
     
@@ -46,6 +48,7 @@
     font-weight: 600;
     background:none;
     border: 1px solid rgba(255, 255, 255, 1);
+    margin-left: 20px;
     
 
 }
@@ -201,7 +204,64 @@
 .brain-container2 .p{
     margin-bottom: 10px;
 }
+.brain-container2 .circle{
+    display: flex;
+}
+.think-section {
+    padding:80px 40px;
+    max-width: 1100px;
+    background-color: #FFF8F3;
+    margin-left:80px;
+    margin-right:80px;
+    border-radius:12px;
+    text-align:center;
+    
+}
+ .think-section .think-container{
+   padding-top: 50px;
+   margin: 0 auto;
+   padding-bottom: 50px;
+   
+}
+.think-container h1{
+    color: rgba(0, 25, 49, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 12px;
+ 
 
+}
+.think-container p{
+    color:rgba(98, 115, 130, 1);
+    margin-bottom: 24px;
+
+}
+.footer-section{
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 80px;
+    width: 100%;
+}
+.footer-section .footer-container{
+    width: 1100px;
+    margin: 0 auto;
+    padding:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container .footer-flex1 img{
+    width: 150px;
+}
+.footer-container .footer-flex2 img{
+    width: 20px;
+    border-radius: 50%;
+    padding: 4px;
+
+    
+}
+.footer-container .footer-flex2 p{
+    color:azure;
+}
 
 
 
